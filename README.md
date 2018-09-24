@@ -1,4 +1,4 @@
-# A Quick Demonstration Of S.O.L.I.D Principles using PHP
+# An introduction to S.O.L.I.D Principles using PHP
 
 The term SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
 
@@ -17,3 +17,18 @@ Symptoms of S.R.P violation:
 - Tight coupling: Classes depend tightly on other classes, this leads to fragility.
 - Fragility: One change breaks something completely different.
 
+### O for Open/closed principle
+
+You should be able to extend a class’s behavior, without modifying it.
+
+### L for Liskov substitution principle
+
+Derived classes must be substitutable for their base classes.
+
+### I for Interface segregation principle
+
+Make fine-grained interfaces that are client specific
+
+### D for Dependency inversion principle
+
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
